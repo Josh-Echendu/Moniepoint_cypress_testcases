@@ -1,0 +1,58 @@
+{
+  "settlement_batches": [
+    {
+      "id": 14775889,
+      "originating_transaction_reference": "WTH|202510160200496000755DFTY17000000000815565705",
+      "originating_transaction_date": "2025-10-16T16:03:12",
+      "transaction_amount": 565705,
+      "transit_account_id": null,
+      "transit_status": "PENDING",
+      "debits_completed": 0,
+      "credits_completed": 0,
+      "created_on": "2025-10-17T11:11:26",
+      "last_modified_on": "2025-10-17T11:11:26",
+      "business_scheme_id": 507,
+      "currency": "NGN",
+      "allow_batch_posting": 1,
+      "posting_reference": "WTH|202510160200496000755DFTY17000000000815565705_PROCESSOR",
+      "posting_processor_code": null,
+      "posting_narration": "WITHDRAWAL FOR  Citibank Nigeria 496009******0755/WTH|202510160200496000755DFTY17000000000815565705"
+    },
+    {
+      "id": 14775890,
+      "originating_transaction_reference": "WTH|202510160200496000755DFTY17000000000815565705",
+      "originating_transaction_date": "2025-10-16T16:03:12",
+      "transaction_amount": 565705,
+      "transit_account_id": null,
+      "transit_status": "PROCESSING",
+      "debits_completed": 0,
+      "credits_completed": 0,
+      "created_on": "2025-10-17T11:11:26",
+      "last_modified_on": "2025-10-17T11:11:27",
+      "business_scheme_id": 521,
+      "currency": "NGN",
+      "allow_batch_posting": 1,
+      "posting_reference": "WTH|202510160200496000755DFTY17000000000815565705_BUSINESS",
+      "posting_processor_code": null,
+      "posting_narration": "WITHDRAWAL FOR  Citibank Nigeria 496009******0755/WTH|202510160200496000755DFTY17000000000815565705"
+    },
+    {
+      "id": 14775891,
+      "originating_transaction_reference": "WTH|202510160200496000755DFTY17000000000815565705",
+      "originating_transaction_date": "2025-10-16T16:03:12",
+      "transaction_amount": 565705,
+      "transit_account_id": null,
+      "transit_status": "PENDING",
+      "debits_completed": 0,
+      "credits_completed": 0,
+      "created_on": "2025-10-17T11:11:26",
+      "last_modified_on": "2025-10-17T11:11:26",
+      "business_scheme_id": 522,
+      "currency": "NGN",
+      "allow_batch_posting": 1,
+      "posting_reference": "WTH|202510160200496000755DFTY17000000000815565705_DISTRIBUTION_NETWORK",
+      "posting_processor_code": null,
+      "posting_narration": "WITHDRAWAL FOR  Citibank Nigeria 496009******0755/WTH|202510160200496000755DFTY17000000000815565705"
+    }
+  ]
+}

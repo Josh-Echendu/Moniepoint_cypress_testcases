@@ -1,0 +1,65 @@
+Step 1: Test Data Setup
+
+
+Cypress prepares the transaction scenario by gathering all necessary information:
+
+Terminal identification details
+
+Merchant account information
+
+Transaction amount and currency
+
+Unique transaction identifiers
+
+Timestamp and location data
+
+This creates a realistic withdrawal transaction scenario for testing
+
+
+Step 2: Security Authentication
+
+Cypress generates a digital security signature using:
+
+A secret security key
+
+All transaction details combined
+
+Cryptographic hashing algorithm
+
+This ensures the transaction is secure and authenticated, just like real banking transactions
+
+
+Step 3: Database Command
+Cypress sends the database instruction to the backend system:
+
+Packages the SQL command with all transaction data
+
+Sends it to the local Django API endpoint
+
+Includes proper authentication headers
+
+This initiates the process of recording the transaction in the system
+
+
+Step 4: Backend Processing
+Django receives and executes the command:
+
+Processes the SQL instruction securely
+
+Inserts the transaction record into the database
+
+Creates a complete financial transaction entry
+
+The backend system handles the actual database operations
+
+
+Step 5: Response Return
+Django sends back the results:
+
+Retrieves the newly created transaction record
+
+Confirms successful database operation
+
+Returns the complete transaction details
+
+This provides proof that the transaction was properly recorded

@@ -1,0 +1,67 @@
+{
+    "507": {
+        "REVENUE_STREAM": {
+            "transaction_type": "CREDIT",
+            "settlement_amount": ["565705"]
+        },
+        "MSC_EXPENSE": {
+            "transaction_type": "DEBIT",
+            "settlement_amount": ["1697"]
+        },
+        "PTSP": {
+            "transaction_type": "DEBIT",
+            "settlement_amount": ["566"]
+        },
+        "BANK_MERCHANT": {
+            "transaction_type": "DEBIT",
+            "settlement_amount": ["560613"]
+        }
+    },
+
+    "522": {
+        "AGGREGATOR": {
+            "transaction_type": "CREDIT",
+            "settlement_amount": ["6", "130"]
+        },
+        "GENERIC": {
+            "transaction_type": "DEBIT",
+            "settlement_amount": ["130"]
+        },
+        "SUPER_AGGREGATOR": {
+            "transaction_type": "CREDIT",
+            "settlement_amount": ["31"]
+        },
+        "SUPREME_AGGREGATOR": {
+            "transaction_type": "CREDIT",
+            "settlement_amount": ["11"]
+        },
+        "CLUSTER_MANAGER": {
+            "transaction_type": "CREDIT",
+            "settlement_amount": ["57"]
+        }
+    },
+    
+    "521": {
+        "AGENT": {
+            "transaction_type": "CREDIT",
+            "settlement_amount": ["562876"]
+        },
+        "BANK_MERCHANT": {
+            "transaction_type": "DEBIT",
+            "settlement_amount": ["565705"]
+        },
+        "GENERIC": {
+            "transaction_type": "DEBIT",
+            "settlement_amount": ["0"]
+        },
+        "PLATFORM_OWNER": {
+            "transaction_type": "CREDIT",
+            "settlement_amount": ["2829", "849"]
+        }
+    }
+}
+
+
+
+
+
